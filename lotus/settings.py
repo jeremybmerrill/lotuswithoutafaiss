@@ -1,5 +1,5 @@
 import lotus.models
-import lotus.vector_store
+# import lotus.vector_store
 from lotus.types import SerializationFormat
 
 # NOTE: Settings class is not thread-safe
@@ -11,7 +11,7 @@ class Settings:
     rm: lotus.models.RM | None = None  # supposed to only generate embeddings
     helper_lm: lotus.models.LM | None = None
     reranker: lotus.models.Reranker | None = None
-    vs: lotus.vector_store.VS | None = None
+    vs: | None = None # lotus.vector_store.VS | None = None
 
     # Cache settings
     enable_cache: bool = False
