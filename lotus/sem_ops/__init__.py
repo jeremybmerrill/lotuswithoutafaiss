@@ -8,7 +8,7 @@ __all__ = [
     "sem_index",
     "sem_search",
     "load_sem_index",
-    "sem_sim_join",
+    # "sem_sim_join",
     "sem_cluster_by",
     "sem_partition_by",
     "sem_dedup",

@@ -1,7 +1,7 @@
 import logging
 import lotus.dtype_extensions
 import lotus.models
-import lotus.vector_store
+# import lotus.vector_store
 import lotus.nl_expression
 import lotus.templates
 import lotus.utils
@@ -15,8 +15,8 @@ from lotus.sem_ops import (
     sem_map,
     sem_partition_by,
     sem_search,
-    sem_sim_join,
-    sem_cluster_by,
+    # sem_sim_join,
+    # sem_cluster_by,
     sem_dedup,
     sem_topk,
 )
@@ -37,7 +37,7 @@ __all__ = [
     "sem_topk",
     "sem_index",
     "load_sem_index",
-    "sem_sim_join",
+    # "sem_sim_join",
     "sem_cluster_by",
     "sem_search",
     "sem_dedup",

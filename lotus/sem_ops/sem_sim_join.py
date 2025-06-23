@@ -6,7 +6,7 @@ import lotus
 from lotus.cache import operator_cache
 from lotus.models import RM
 from lotus.types import RMOutput
-from lotus.vector_store import VS
+# from lotus.vector_store import VS
 
 
 @pd.api.extensions.register_dataframe_accessor("sem_sim_join")
